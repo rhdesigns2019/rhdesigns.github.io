@@ -1,0 +1,48 @@
+body {
+  margin-top: 90px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  background: #fff;
+  opacity: 0.8; }
+  .navbar .nav-item {
+    font-size: 1.1rem;
+    padding-right: 30px; }
+    .navbar .nav-item .nav-link {
+      color: #252525; }
+    .navbar .nav-item .nav-link:hover {
+      color: #3292a6; }
+  .navbar .nav-item:last-child {
+    padding-right: 0; }
+
+#introduction {
+  background-image: url("../img/mountains.jpg");
+  min-height: 600px;
+  position: relative; }
+  #introduction .primary-overlay {
+    background: rgba(50, 146, 156, 0.7);
+    min-height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#myteam img {
+  margin-top: -50px; }
+
+#myteam .card {
+  transition: 0.4s; }
+
+#myteam .card:hover {
+  background: #3292a6;
+  color: white; }
+  #myteam .card:hover .fa {
+    color: white; }
+
+#myteam .fa {
+  font-size: 25px; }
+
+@media (max-width: 576px) {
+  #introduction h1 {
+    font-size: 4rem; } }
